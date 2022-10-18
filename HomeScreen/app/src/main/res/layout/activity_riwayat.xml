@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Riwayat">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:padding="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/back1"
+            android:layout_width="37dp"
+            android:layout_height="37dp"
+            android:layout_centerVertical="true"
+            app:srcCompat="?attr/homeAsUpIndicator" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="60dp"
+            android:layout_toRightOf="@id/back1"
+            android:text="Riwayat Telepon"
+            android:textSize="25sp" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="410dp"
+        android:layout_height="608dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayout3">
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayout3"
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp"
+
+            app:layout_constraintVertical_bias="0.0"
+            tools:layout_editor_absoluteX="-16dp">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/background_akun"
+                android:padding="10dp">
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="68dp"
+                    android:layout_height="61dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.023"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.0"
+                    app:srcCompat="@drawable/person" />
+
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="140dp"
+                    android:text="Souma"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toStartOf="@+id/imageButtonMaps"
+                    app:layout_constraintLeft_toRightOf="@id/imageView1"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="24dp"
+                    android:layout_marginTop="5dp"
+                    android:text="Hari ini 13.30"
+                    android:textStyle="normal"
+                    app:layout_constraintLeft_toRightOf="@id/imageView1"
+                    app:layout_constraintTop_toBottomOf="@+id/textView1" />
+
+
+                <ImageButton
+                    android:id="@+id/imageButtonMaps"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/phone"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.948"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.523" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/background_akun"
+                android:padding="10dp">
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="68dp"
+                    android:layout_height="61dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.023"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.0"
+                    app:srcCompat="@drawable/person" />
+
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginEnd="152dp"
+                    android:text="Erina"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toStartOf="@+id/imageButtonMaps2"
+                    app:layout_constraintLeft_toRightOf="@id/imageView2"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="24dp"
+                    android:layout_marginTop="5dp"
+                    android:text="Kemarin 17.30"
+                    android:textStyle="normal"
+                    app:layout_constraintLeft_toRightOf="@id/imageView2"
+                    app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+
+                <ImageButton
+                    android:id="@+id/imageButtonMaps2"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/phone"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.948"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.523" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/background_akun"
+                android:padding="10dp">
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="68dp"
+                    android:layout_height="61dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.023"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.0"
+                    app:srcCompat="@drawable/person" />
+
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="132dp"
+                    android:text="Megumi"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toStartOf="@+id/imageButtonMaps3"
+                    app:layout_constraintLeft_toRightOf="@id/imageView3"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="24dp"
+                    android:layout_marginTop="5dp"
+                    android:text="kemarin 09.30"
+                    android:textStyle="normal"
+                    app:layout_constraintLeft_toRightOf="@id/imageView3"
+                    app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+
+                <ImageButton
+                    android:id="@+id/imageButtonMaps3"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/phone"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.948"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.523" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/background_akun"
+                android:padding="10dp">
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="68dp"
+                    android:layout_height="61dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.023"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.0"
+                    app:srcCompat="@drawable/person" />
+
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="152dp"
+                    android:text="Alice"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toStartOf="@+id/imageButtonMaps4"
+                    app:layout_constraintLeft_toRightOf="@id/imageView4"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="24dp"
+                    android:layout_marginTop="5dp"
+                    android:text="Kemarin 07.30"
+                    android:textStyle="normal"
+                    app:layout_constraintLeft_toRightOf="@id/imageView4"
+                    app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+
+                <ImageButton
+                    android:id="@+id/imageButtonMaps4"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/phone"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.948"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.523" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
