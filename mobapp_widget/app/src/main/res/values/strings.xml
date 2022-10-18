@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">mobapp_widget</string>
+    <string name="data_diri">Data Diri</string>
+    <string name="nama">Nama</string>
+    <string name="e_mail">E-Mail</string>
+    <string name="password">Password</string>
+    <string name="no_telp">No. Telp</string>
+    <string name="alamat">Alamat</string>
+    <string name="tanggal_lahir">Tanggal Lahir</string>
+    <string name="register" />
+
+</resources>
