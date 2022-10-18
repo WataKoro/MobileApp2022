@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/profileTop"
+        android:icon="@drawable/profile"
+        android:visible="true" />
+    <item
+        android:id="@+id/accountName"
+        android:title="acccountName" />
+    <item
+        android:id="@+id/qr"
+        android:icon="@drawable/qr"
+        android:visible="true" />
+</menu>
