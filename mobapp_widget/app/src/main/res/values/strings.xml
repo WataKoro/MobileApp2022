@@ -8,5 +8,12 @@
     <string name="alamat">Alamat</string>
     <string name="tanggal_lahir">Tanggal Lahir</string>
     <string name="register" />
+    <string name="perempuan">Perempuan</string>
+    <string name="todo">TODO</string>
+    <string name="submit">Submit</string>
+    <string name="gender">gender</string>
+    <string name="riwayat_penyakit">Riwayat Penyakit</string>
+    <string name="laki_laki">Laki-laki</string>
+
 
 </resources>

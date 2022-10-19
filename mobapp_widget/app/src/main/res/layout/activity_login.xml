@@ -4,28 +4,29 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
-    android:background="@color/orange"
-    >
+    android:background="@drawable/wavebg"
+    tools:context=".MainActivity">
 
 
     <TextView
         android:id="@+id/sapa"
-        android:layout_width="118dp"
-        android:layout_height="48dp"
+        android:layout_width="153dp"
+        android:layout_height="46dp"
 
+        android:layout_marginTop="28dp"
+        android:layout_marginBottom="24dp"
+        android:fontFamily="@font/poppins_medium"
         android:text="@string/data_diri"
         android:textColor="@color/design_default_color_surface"
         android:textColorHighlight="#FFFFFF"
         android:textColorLink="@color/white"
         android:textSize="29sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.589"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.061"
         tools:ignore="MissingConstraints" />
 
     <EditText
@@ -38,19 +39,21 @@
         android:drawableStart="@drawable/ic_baseline_person_24"
         android:drawablePadding="?attr/listPreferredItemPaddingStart"
         android:ems="10"
+        android:fontFamily="@font/poppins_light"
         android:hint="@string/nama"
         android:inputType="textPersonName"
-        android:paddingLeft="20dp"
+        android:paddingVertical="5dp"
+        android:paddingStart="20dp"
         android:paddingTop="10dp"
-        android:paddingRight="10dp"
+        android:paddingEnd="10dp"
         android:paddingBottom="10dp"
-        android:textColor="#5C5858"
-        android:textColorHint="@color/material_dynamic_neutral_variant90"
+        android:textColor="#FF9800"
+        android:textColorHint="@color/orange"
         app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonmail"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/sapa"
-        tools:ignore="LabelFor,TouchTargetSizeCheck" />
+        tools:ignore="LabelFor,TouchTargetSizeCheck,TextContrastCheck" />
 
     <EditText
         android:id="@+id/editTextTextPersonmail"
@@ -62,18 +65,19 @@
         android:drawableStart="@drawable/ic_baseline_email_24"
         android:drawablePadding="?attr/listPreferredItemPaddingStart"
         android:ems="10"
+        android:fontFamily="@font/poppins_light"
         android:hint="@string/e_mail"
         android:inputType="textEmailAddress"
-        android:paddingLeft="20dp"
+        android:paddingStart="20dp"
         android:paddingTop="10dp"
-        android:paddingRight="10dp"
+        android:paddingEnd="10dp"
         android:paddingBottom="10dp"
         android:textColor="#5C5858"
-        android:textColorHint="@color/material_dynamic_neutral_variant90"
+        android:textColorHint="@color/orange"
         app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonName"
         app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName"
-        tools:ignore="LabelFor,TouchTargetSizeCheck" />
+        tools:ignore="LabelFor,TouchTargetSizeCheck,TextContrastCheck" />
 
     <EditText
         android:id="@+id/editTextTextPersonName3"
@@ -85,18 +89,19 @@
         android:drawableStart="@drawable/ic_baseline_security"
         android:drawablePadding="?attr/listPreferredItemPaddingStart"
         android:ems="10"
+        android:fontFamily="@font/poppins_light"
         android:hint="@string/password"
         android:inputType="textPassword"
-        android:paddingLeft="20dp"
+        android:paddingStart="20dp"
         android:paddingTop="10dp"
-        android:paddingRight="10dp"
+        android:paddingEnd="10dp"
         android:paddingBottom="10dp"
         android:textColor="#5C5858"
-        android:textColorHint="@color/material_dynamic_neutral_variant90"
+        android:textColorHint="@color/orange"
         app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonName"
         app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonmail"
-        tools:ignore="LabelFor,TouchTargetSizeCheck" />
+        tools:ignore="LabelFor,TouchTargetSizeCheck,TextContrastCheck" />
 
     <EditText
         android:id="@+id/editTextTextPersonName4"
@@ -108,18 +113,19 @@
         android:drawableStart="@drawable/ic_baseline_phone_24"
         android:drawablePadding="?attr/listPreferredItemPaddingStart"
         android:ems="10"
+        android:fontFamily="@font/poppins_light"
         android:hint="@string/no_telp"
         android:inputType="textPhonetic"
-        android:paddingLeft="20dp"
+        android:paddingStart="20dp"
         android:paddingTop="10dp"
-        android:paddingRight="10dp"
+        android:paddingEnd="10dp"
         android:paddingBottom="10dp"
         android:textColor="#5C5858"
-        android:textColorHint="@color/material_dynamic_neutral_variant90"
+        android:textColorHint="@color/orange"
         app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonName"
         app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName3"
-        tools:ignore="LabelFor,TouchTargetSizeCheck" />
+        tools:ignore="LabelFor,TouchTargetSizeCheck,TextContrastCheck" />
 
     <EditText
         android:id="@+id/editTextTextPersonName5"
@@ -131,19 +137,20 @@
         android:drawableStart="@drawable/ic_baseline_location_on_24"
         android:drawablePadding="?attr/listPreferredItemPaddingStart"
         android:ems="10"
+        android:fontFamily="@font/poppins_light"
         android:hint="@string/alamat"
         android:inputType="textPostalAddress"
         android:minHeight="48dp"
-        android:paddingLeft="20dp"
+        android:paddingStart="20dp"
         android:paddingTop="10dp"
-        android:paddingRight="10dp"
+        android:paddingEnd="10dp"
         android:paddingBottom="10dp"
         android:textColor="#5C5858"
-        android:textColorHint="@color/material_dynamic_neutral_variant90"
+        android:textColorHint="@color/orange"
         app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonName"
         app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName4"
-        tools:ignore="LabelFor" />
+        tools:ignore="LabelFor,TextContrastCheck" />
 
 
     <EditText
@@ -157,95 +164,104 @@
         android:drawableStart="@drawable/calendar"
         android:drawablePadding="?attr/listPreferredItemPaddingStart"
         android:ems="10"
+        android:fontFamily="@font/poppins_light"
         android:hint="@string/tanggal_lahir"
         android:inputType="date"
         android:minHeight="48dp"
-        android:paddingLeft="20dp"
+        android:paddingStart="20dp"
         android:paddingTop="10dp"
-        android:paddingRight="10dp"
+        android:paddingEnd="10dp"
         android:paddingBottom="10dp"
         android:textColor="#5C5858"
-        android:textColorHint="@color/material_dynamic_neutral_variant90"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:textColorHint="@color/orange"
         app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonName"
         app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName5"
-        app:layout_constraintVertical_bias="0.0"
-        tools:ignore="LabelFor" />
+        tools:ignore="LabelFor,TextContrastCheck" />
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="43dp"
-        android:layout_height="36dp"
-        android:backgroundTint="@color/white"
-        android:contentDescription="back_button"
-        app:srcCompat="@drawable/pngwing3"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="16dp" />
-
-
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="44dp"
-        android:layout_height="101dp"
-        android:contentDescription="TODO"
-        app:layout_constraintBottom_toBottomOf="@+id/radioGroup"
-        app:layout_constraintEnd_toStartOf="@+id/radioGroup"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName"
-        app:layout_constraintTop_toTopOf="@+id/radioGroup"
-        app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/gender"
-        tools:ignore="MissingConstraints" />
-
-    <RadioGroup
-        android:id="@+id/radioGroup"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="45dp"
-        android:layout_marginTop="8dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonName6"
-        app:layout_constraintHorizontal_bias="0.428"
-        app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName6"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName6"
-        app:layout_constraintVertical_bias="0.0">
-
-        <RadioButton
-            android:id="@+id/rbMale"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:button="@android:drawable/btn_radio"
-            android:text="Laki-laki"
-            android:textColor="@color/white" />
-
-        <RadioButton
-            android:id="@+id/rbFemale"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:button="@android:drawable/btn_radio"
-            android:text="Perempuan"
-            android:textColor="@color/white"
-            tools:ignore="TouchTargetSizeCheck" />
-    </RadioGroup>
 
     <Button
         android:id="@+id/button2"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="104dp"
         android:background="@drawable/btn_bg"
         android:elegantTextHeight="false"
-        android:text="Submit"
+        android:elevation="1000dp"
+        android:fontFamily="@font/poppins_medium"
+        android:text="@string/submit"
+        android:textColor="@color/white"
         android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonName"
-        app:layout_constraintHorizontal_bias="0.668"
+        app:layout_constraintHorizontal_bias="0.611"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/radioGroup"
-        app:layout_constraintVertical_bias="0.449" />
+        tools:ignore="TextContrastCheck" />
 
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="18dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/back"
+        android:contentDescription="@string/todo" />
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/radio_bg"
+        app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonName6"
+        app:layout_constraintHorizontal_bias="0.52"
+        app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName6"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName6">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="27dp"
+            android:contentDescription="@string/gender"
+            app:srcCompat="@drawable/gender2"
+            tools:ignore="ImageContrastCheck" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="266dp"
+            android:layout_height="104dp"
+            android:layout_marginStart="45dp"
+            android:dividerPadding="50dp"
+            android:padding="5dp"
+            android:paddingBottom="10dp">
+
+            <RadioButton
+                android:id="@+id/rbMale"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:button="@android:drawable/btn_radio"
+                android:drawablePadding="30dp"
+                android:fontFamily="@font/poppins_light"
+                android:text="@string/laki_laki"
+                android:textColor="@color/orange"
+                tools:ignore="TextContrastCheck" />
+
+            <RadioButton
+                android:id="@+id/rbFemale"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:button="@android:drawable/btn_radio"
+                android:drawablePadding="30dp"
+                android:fontFamily="@font/poppins_light"
+                android:text="@string/perempuan"
+                android:textColor="@color/orange"
+                tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
+        </RadioGroup>
+    </FrameLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
