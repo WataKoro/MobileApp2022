@@ -10,23 +10,27 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="100dp"
-        android:padding="10dp">
 
-        <ImageView
-            android:id="@+id/back"
-            android:layout_width="37dp"
-            android:layout_height="37dp"
-            android:layout_centerVertical="true"
-            app:srcCompat="?attr/homeAsUpIndicator"/>
+        android:padding="10dp">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Lokasi Lansia"
-            android:textSize="25sp"
-            android:layout_toRightOf="@id/back"
             android:layout_centerVertical="true"
-            android:layout_marginLeft="45dp"/>
+            android:layout_marginLeft="45dp"
+            android:layout_toRightOf="@id/back"
+            android:backgroundTint="@color/black"
+            android:text="Lokasi Lansia"
+            android:textSize="25sp" />
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="35dp"
+            android:layout_height="50dp"
+            android:onClick="home"
+            android:layout_centerVertical="true"
+            app:srcCompat="?attr/homeAsUpIndicator" />
+
 
     </RelativeLayout>
 

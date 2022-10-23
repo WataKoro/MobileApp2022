@@ -21,7 +21,8 @@
             android:layout_width="75dp"
             android:layout_height="75dp"
             android:layout_marginTop="10dp"
-            android:src="@drawable/avatar" />
+            android:src="@drawable/avatar"
+            android:onClick="profil"/>
 
         <TextView
             android:id="@+id/nama_akun"
@@ -152,6 +153,7 @@
                 android:layout_width="40dp"
                 android:layout_height="40dp"
                 android:src="@drawable/maps"
+                android:onClick="loc"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.948"
@@ -207,6 +209,7 @@
                 android:layout_width="40dp"
                 android:layout_height="40dp"
                 android:src="@drawable/maps"
+                android:onClick="loc"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.948"
