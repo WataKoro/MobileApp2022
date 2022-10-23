@@ -193,6 +193,7 @@
         android:elevation="1000dp"
         android:fontFamily="@font/poppins_medium"
         android:text="@string/submit"
+        android:onClick="home"
         android:textColor="@color/white"
         android:textSize="16sp"
         android:textStyle="bold"
