@@ -2,7 +2,9 @@ package upi.edu.hagaibrayens.homescreen;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 
 public class RumahSakitMap extends AppCompatActivity {
 
@@ -11,4 +13,10 @@ public class RumahSakitMap extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_rumah_sakit_map);
     }
+
+    public void home(View v){
+        Intent switchActivityIntent = new Intent(this, Home.class);
+        startActivity(switchActivityIntent);
+    }
+
 }
