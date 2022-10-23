@@ -17,10 +17,10 @@
             android:name=".ProfilCaregiver"
             android:exported="false"/>
         <activity
-            android:name=".Login"
+            android:name=".register_caregiver"
             android:exported="true" />
         <activity
-            android:name=".MainActivity"
+            android:name=".register_lansia"
             android:exported="true" />
         <activity
             android:name=".RumahSakitMap"

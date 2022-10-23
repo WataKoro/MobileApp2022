@@ -7,18 +7,13 @@ import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-
-public class MainActivity extends AppCompatActivity {
-
-
-
+public class register_caregiver extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_register_cargiver);
     }
-
 
     public void home(View v){
         Intent switchActivityIntent = new Intent(this, Home.class);

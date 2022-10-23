@@ -7,13 +7,18 @@ import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class Login extends AppCompatActivity {
+
+public class register_lansia extends AppCompatActivity {
+
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login);
+        setContentView(R.layout.activity_register_lansia);
     }
+
 
     public void home(View v){
         Intent switchActivityIntent = new Intent(this, Home.class);
