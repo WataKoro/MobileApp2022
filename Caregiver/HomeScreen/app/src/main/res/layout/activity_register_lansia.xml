@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/wavebg"
-    tools:context=".MainActivity">
+    tools:context=".register_lansia">
 
 
     <TextView
@@ -193,6 +193,7 @@
         android:elevation="1000dp"
         android:fontFamily="@font/poppins_medium"
         android:text="@string/submit"
+        android:onClick="home"
         android:textColor="@color/white"
         android:textSize="16sp"
         android:textStyle="bold"

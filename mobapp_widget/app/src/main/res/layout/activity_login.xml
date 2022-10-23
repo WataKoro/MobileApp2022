@@ -13,27 +13,26 @@
         android:layout_width="153dp"
         android:layout_height="46dp"
 
-        android:layout_marginTop="28dp"
-        android:layout_marginBottom="24dp"
         android:fontFamily="@font/poppins_medium"
         android:text="@string/data_diri"
+        android:textAlignment="center"
         android:textColor="@color/design_default_color_surface"
         android:textColorHighlight="#FFFFFF"
         android:textColorLink="@color/white"
         android:textSize="29sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.589"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023"
         tools:ignore="MissingConstraints" />
 
     <EditText
         android:id="@+id/editTextTextPersonName"
         android:layout_width="303dp"
         android:layout_height="40dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="56dp"
         android:autofillHints=""
         android:background="@drawable/input_bg"
         android:drawableStart="@drawable/ic_baseline_person_24"
@@ -49,7 +48,6 @@
         android:paddingBottom="10dp"
         android:textColor="#FF9800"
         android:textColorHint="@color/orange"
-        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonmail"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/sapa"
@@ -75,6 +73,7 @@
         android:textColor="#5C5858"
         android:textColorHint="@color/orange"
         app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonName"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName"
         tools:ignore="LabelFor,TouchTargetSizeCheck,TextContrastCheck" />
@@ -99,6 +98,7 @@
         android:textColor="#5C5858"
         android:textColorHint="@color/orange"
         app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonName"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonmail"
         tools:ignore="LabelFor,TouchTargetSizeCheck,TextContrastCheck" />
@@ -123,9 +123,11 @@
         android:textColor="#5C5858"
         android:textColorHint="@color/orange"
         app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonName"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName3"
         tools:ignore="LabelFor,TouchTargetSizeCheck,TextContrastCheck" />
+
 
     <EditText
         android:id="@+id/editTextTextPersonName5"
@@ -148,6 +150,7 @@
         android:textColor="#5C5858"
         android:textColorHint="@color/orange"
         app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonName"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName4"
         tools:ignore="LabelFor,TextContrastCheck" />
@@ -175,17 +178,16 @@
         android:textColor="#5C5858"
         android:textColorHint="@color/orange"
         app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonName"
-        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName5"
         tools:ignore="LabelFor,TextContrastCheck" />
-
 
     <Button
         android:id="@+id/button2"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="104dp"
+        android:layout_marginTop="68dp"
         android:background="@drawable/btn_bg"
         android:elegantTextHeight="false"
         android:elevation="1000dp"
@@ -194,22 +196,24 @@
         android:textColor="@color/white"
         android:textSize="16sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonName"
-        app:layout_constraintHorizontal_bias="0.611"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName"
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout"
         tools:ignore="TextContrastCheck" />
 
     <ImageView
         android:id="@+id/imageView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="18dp"
+        android:contentDescription="@string/todo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.044"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/back"
-        android:contentDescription="@string/todo" />
+        app:layout_constraintVertical_bias="0.019"
+        app:srcCompat="@drawable/backbutton_register" />
 
     <FrameLayout
         android:id="@+id/frameLayout"
@@ -217,9 +221,9 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:background="@drawable/radio_bg"
-        app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonName6"
-        app:layout_constraintHorizontal_bias="0.52"
-        app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName6"
+        app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonName"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName6">
 
         <ImageView
