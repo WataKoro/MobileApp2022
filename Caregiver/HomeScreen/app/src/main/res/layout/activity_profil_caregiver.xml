@@ -47,7 +47,8 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="?attr/homeAsUpIndicator" />
+            app:srcCompat="?attr/homeAsUpIndicator"
+           />
 
         <TextView
             android:id="@+id/profil"

@@ -25,6 +25,7 @@
             android:onClick="kontak"
             android:src="@drawable/avatar" />
 
+
         <TextView
             android:id="@+id/nama_akun"
             android:layout_width="wrap_content"
@@ -164,6 +165,7 @@
                 app:layout_constraintVertical_bias="0.523" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
+
 
     </LinearLayout>
 

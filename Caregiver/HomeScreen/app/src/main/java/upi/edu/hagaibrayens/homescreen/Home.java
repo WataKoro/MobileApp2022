@@ -53,6 +53,16 @@ public class Home extends AppCompatActivity {
         startActivity(switchActivityIntent);
     }
 
+    public void profil(View v){
+        Intent switchActivityIntent = new Intent(this, ProfilCaregiver.class);
+        startActivity(switchActivityIntent);
+    }
+
+    public void profil(MenuItem item){
+        Intent switchActivityIntent = new Intent(this, ProfilCaregiver.class);
+        startActivity(switchActivityIntent);
+    }
+
     public void kontak(View v){
         Intent switchActivityIntent = new Intent(this, ProfilCaregiver.class);
         startActivity(switchActivityIntent);

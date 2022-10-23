@@ -16,9 +16,9 @@
             android:id="@+id/back"
             android:layout_width="37dp"
             android:layout_height="37dp"
-            android:layout_centerVertical="true"
             android:onClick="home"
-            app:srcCompat="?attr/homeAsUpIndicator" />
+            android:layout_centerVertical="true"
+            app:srcCompat="?attr/homeAsUpIndicator"/>
 
         <TextView
             android:layout_width="wrap_content"

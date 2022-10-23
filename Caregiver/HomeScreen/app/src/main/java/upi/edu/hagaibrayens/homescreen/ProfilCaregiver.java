@@ -19,4 +19,5 @@ public class ProfilCaregiver extends AppCompatActivity {
         startActivity(switchActivityIntent);
     }
 
+
 }
