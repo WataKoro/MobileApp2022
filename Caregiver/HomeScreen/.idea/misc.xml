@@ -18,34 +18,20 @@
         <entry key="..\:/Mobile App/File/HomeScreen/app/src/main/res/layout/activity_setting.xml" value="0.16666666666666666" />
         <entry key="..\:/Mobile App/File/HomeScreen/app/src/main/res/layout/navbar.xml" value="0.2" />
         <entry key="..\:/Mobile App/File/HomeScreen/app/src/main/res/menu/bottom_appbar.xml" value="0.16666666666666666" />
-        <entry key="..\:/Users/attar/OneDrive/Dokumen/GitHub/MobileApp2022/Caregiver/HomeScreen/app/src/main/res/font/.xml" value="0.12962962962962962" />
-        <entry key="..\:/Users/attar/OneDrive/Dokumen/GitHub/MobileApp2022/Caregiver/HomeScreen/app/src/main/res/layout/activity_home.xml" value="0.22826086956521738" />
-        <entry key="..\:/Users/attar/OneDrive/Dokumen/GitHub/MobileApp2022/Caregiver/HomeScreen/app/src/main/res/layout/activity_lansia_map.xml" value="0.18070652173913043" />
-        <entry key="..\:/Users/attar/OneDrive/Dokumen/GitHub/MobileApp2022/Caregiver/HomeScreen/app/src/main/res/layout/activity_login.xml" value="0.1" />
-        <entry key="..\:/Users/attar/OneDrive/Dokumen/GitHub/MobileApp2022/Caregiver/HomeScreen/app/src/main/res/layout/activity_main.xml" value="0.12158054711246201" />
-        <entry key="..\:/Users/attar/OneDrive/Dokumen/GitHub/MobileApp2022/Caregiver/HomeScreen/app/src/main/res/layout/activity_profil_caregiver.xml" value="0.18070652173913043" />
-        <entry key="..\:/Users/attar/OneDrive/Dokumen/GitHub/MobileApp2022/Caregiver/HomeScreen/app/src/main/res/layout/activity_riwayat.xml" value="0.18070652173913043" />
-        <entry key="..\:/Users/attar/OneDrive/Dokumen/GitHub/MobileApp2022/Caregiver/HomeScreen/app/src/main/res/layout/activity_rumah_sakit_map.xml" value="0.18070652173913043" />
-        <entry key="..\:/Users/attar/OneDrive/Dokumen/GitHub/MobileApp2022/Caregiver/HomeScreen/app/src/main/res/layout/activity_scan_qr.xml" value="0.18070652173913043" />
-        <entry key="..\:/Users/attar/OneDrive/Dokumen/GitHub/MobileApp2022/Caregiver/HomeScreen/app/src/main/res/layout/activity_setting.xml" value="0.22826086956521738" />
-        <entry key="..\:/Users/attar/OneDrive/Dokumen/GitHub/MobileApp2022/Caregiver/HomeScreen/app/src/main/res/menu/bottom_appbar.xml" value="0.25" />
-        <entry key="..\:/Users/attar/OneDrive/Dokumen/GitHub/MobileApp2022/Caregiver/HomeScreen/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2265" />
-        <entry key="..\:/aaa/app/MobileApp2022/Caregiver/HomeScreen/app/src/main/res/drawable-anydpi/arrowf.xml" value="0.2235" />
-        <entry key="..\:/aaa/app/MobileApp2022/Caregiver/HomeScreen/app/src/main/res/drawable-anydpi/back.xml" value="0.2235" />
-        <entry key="..\:/aaa/app/MobileApp2022/Caregiver/HomeScreen/app/src/main/res/drawable-anydpi/flash.xml" value="0.102" />
-        <entry key="..\:/aaa/app/MobileApp2022/Caregiver/HomeScreen/app/src/main/res/drawable-mdpi/ic_launcher_background.xml" value="0.102" />
-        <entry key="..\:/aaa/app/MobileApp2022/Caregiver/HomeScreen/app/src/main/res/drawable-mdpi/ic_launcher_foreground.xml" value="0.102" />
-        <entry key="..\:/aaa/app/MobileApp2022/Caregiver/HomeScreen/app/src/main/res/drawable-mdpi/wave5.xml" value="0.102" />
-        <entry key="..\:/aaa/app/MobileApp2022/Caregiver/HomeScreen/app/src/main/res/drawable/avatar.xml" value="0.2235" />
-        <entry key="..\:/aaa/app/MobileApp2022/Caregiver/HomeScreen/app/src/main/res/drawable/background_akun.xml" value="0.2235" />
-        <entry key="..\:/aaa/app/MobileApp2022/Caregiver/HomeScreen/app/src/main/res/drawable/background_list.xml" value="0.2235" />
-        <entry key="..\:/aaa/app/MobileApp2022/Caregiver/HomeScreen/app/src/main/res/drawable/ic_launcher_background.xml" value="0.102" />
-        <entry key="..\:/aaa/app/MobileApp2022/Caregiver/HomeScreen/app/src/main/res/drawable/topbg.xml" value="0.2235" />
-        <entry key="..\:/aaa/app/MobileApp2022/Caregiver/HomeScreen/app/src/main/res/layout/activity_home.xml" value="0.22327898550724637" />
-        <entry key="..\:/aaa/app/MobileApp2022/Caregiver/HomeScreen/app/src/main/res/layout/activity_lansia_map.xml" value="0.2" />
-        <entry key="..\:/aaa/app/MobileApp2022/Caregiver/HomeScreen/app/src/main/res/layout/activity_profil_caregiver.xml" value="0.22327898550724637" />
-        <entry key="..\:/aaa/app/MobileApp2022/Caregiver/HomeScreen/app/src/main/res/layout/activity_riwayat.xml" value="0.22327898550724637" />
-        <entry key="..\:/aaa/app/MobileApp2022/Caregiver/HomeScreen/app/src/main/res/layout/activity_scan_qr.xml" value="0.1" />
+        <entry key="..\:/Mobile App/Github/TolongLansia/MobileApp2022/Caregiver/HomeScreen/app/src/main/res/drawable-v24/baseline_warning_36.xml" value="0.2075" />
+        <entry key="..\:/Mobile App/Github/TolongLansia/MobileApp2022/Caregiver/HomeScreen/app/src/main/res/drawable-v24/logo.xml" value="0.2075" />
+        <entry key="..\:/Mobile App/Github/TolongLansia/MobileApp2022/Caregiver/HomeScreen/app/src/main/res/drawable-v24/splash_image.xml" value="0.2075" />
+        <entry key="..\:/Mobile App/Github/TolongLansia/MobileApp2022/Caregiver/HomeScreen/app/src/main/res/drawable/baseline_warning_36.xml" value="0.2075" />
+        <entry key="..\:/Mobile App/Github/TolongLansia/MobileApp2022/Caregiver/HomeScreen/app/src/main/res/layout/activity_home.xml" value="0.16666666666666666" />
+        <entry key="..\:/Mobile App/Github/TolongLansia/MobileApp2022/Caregiver/HomeScreen/app/src/main/res/layout/activity_lansia_map.xml" value="0.19157608695652173" />
+        <entry key="..\:/Mobile App/Github/TolongLansia/MobileApp2022/Caregiver/HomeScreen/app/src/main/res/layout/activity_logo.xml" value="0.2" />
+        <entry key="..\:/Mobile App/Github/TolongLansia/MobileApp2022/Caregiver/HomeScreen/app/src/main/res/layout/activity_profil_caregiver.xml" value="0.2" />
+        <entry key="..\:/Mobile App/Github/TolongLansia/MobileApp2022/Caregiver/HomeScreen/app/src/main/res/layout/activity_register_cargiver.xml" value="0.1" />
+        <entry key="..\:/Mobile App/Github/TolongLansia/MobileApp2022/Caregiver/HomeScreen/app/src/main/res/layout/activity_register_lansia.xml" value="0.1" />
+        <entry key="..\:/Mobile App/Github/TolongLansia/MobileApp2022/Caregiver/HomeScreen/app/src/main/res/layout/activity_riwayat.xml" value="0.19157608695652173" />
+        <entry key="..\:/Mobile App/Github/TolongLansia/MobileApp2022/Caregiver/HomeScreen/app/src/main/res/layout/activity_rumah_sakit_map.xml" value="0.19157608695652173" />
+        <entry key="..\:/Mobile App/Github/TolongLansia/MobileApp2022/Caregiver/HomeScreen/app/src/main/res/layout/activity_scan_qr.xml" value="0.19157608695652173" />
+        <entry key="..\:/Mobile App/Github/TolongLansia/MobileApp2022/Caregiver/HomeScreen/app/src/main/res/layout/activity_setting.xml" value="0.19157608695652173" />
       </map>
     </option>
   </component>

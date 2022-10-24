@@ -4,7 +4,6 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.MenuItem;
 import android.view.View;
 
 public class ProfilCaregiver extends AppCompatActivity {
@@ -20,8 +19,5 @@ public class ProfilCaregiver extends AppCompatActivity {
         startActivity(switchActivityIntent);
     }
 
-    public void home(MenuItem item){
-        Intent switchActivityIntent = new Intent(this, Home.class);
-        startActivity(switchActivityIntent);
-    }
+
 }
