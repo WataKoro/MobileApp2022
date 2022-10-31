@@ -24,8 +24,9 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.355" />
 
+
     <EditText
-        android:id="@+id/etPassworc"
+        android:id="@+id/editTextTextPassword"
         android:layout_width="301dp"
         android:layout_height="wrap_content"
         android:background="@drawable/text_bg"
@@ -39,8 +40,9 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.529" />
 
+
     <TextView
-        android:id="@+id/tvPassword"
+        android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Password"
@@ -53,8 +55,9 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.478" />
 
+
     <TextView
-        android:id="@+id/tvEmail"
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="E-Mail"
@@ -82,8 +85,9 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.699" />
 
+
     <CheckBox
-        android:id="@+id/cbIngatSaya"
+        android:id="@+id/checkBox"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Ingat Saya"
@@ -96,7 +100,7 @@
         app:layout_constraintVertical_bias="0.593" />
 
     <TextView
-        android:id="@+id/tvWelcome"
+        android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Selamat Datang!"
@@ -112,7 +116,7 @@
 
 
     <TextView
-        android:id="@+id/tvLogin"
+        android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Silahkan Login di\nbawah."
@@ -126,7 +130,7 @@
         app:layout_constraintVertical_bias="0.186" />
 
     <TextView
-        android:id="@+id/tvExEmail"
+        android:id="@+id/textcontoh"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Ex : aa@mob.com"
@@ -178,5 +182,6 @@
         app:layout_constraintStart_toEndOf="@+id/textView5"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.89" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
