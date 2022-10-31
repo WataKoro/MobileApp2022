@@ -19,7 +19,7 @@ public class Logo extends AppCompatActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent intent = new Intent(Logo.this, Home.class);
+                Intent intent = new Intent(Logo.this, LoginCaregiver.class);
                 startActivity(intent);
             }
         }, splash_screen);
