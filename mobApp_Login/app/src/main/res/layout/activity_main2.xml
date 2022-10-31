@@ -10,7 +10,7 @@
     tools:context=".MainActivity">
 
     <EditText
-        android:id="@+id/editTextTextEmailAddress"
+        android:id="@+id/etEmailAddress"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/text_bg"
@@ -24,7 +24,7 @@
         app:layout_constraintVertical_bias="0.411" />
 
     <EditText
-        android:id="@+id/editTextTextPassword"
+        android:id="@+id/etPassworc"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/text_bg"
@@ -38,7 +38,7 @@
         app:layout_constraintVertical_bias="0.553" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/tvPassword"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Password"
@@ -51,7 +51,7 @@
         app:layout_constraintVertical_bias="0.511" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/tvEmail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="E-Mail"
@@ -64,7 +64,7 @@
         app:layout_constraintVertical_bias="0.372" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btLogin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="LOGIN"
@@ -76,7 +76,7 @@
         app:layout_constraintVertical_bias="0.748" />
 
     <CheckBox
-        android:id="@+id/checkBox"
+        android:id="@+id/cbIngatSaya"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Ingat Saya"
@@ -89,12 +89,13 @@
         app:layout_constraintVertical_bias="0.653" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/tvWelcome"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Selamat Datang!"
         android:textColor="#F3F0F0"
         android:textSize="34sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.38"
@@ -103,7 +104,7 @@
         app:layout_constraintVertical_bias="0.164" />
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/tvLogin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Silahkan Login di\nbawah."
@@ -117,7 +118,7 @@
         app:layout_constraintVertical_bias="0.236" />
 
     <ImageButton
-        android:id="@+id/imageButton"
+        android:id="@+id/ibBack"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="28dp"
@@ -132,7 +133,7 @@
         app:srcCompat="?attr/actionModeCloseDrawable" />
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/tvExEmail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Ex : aa@mob.com"
@@ -145,7 +146,7 @@
         app:layout_constraintVertical_bias="0.453" />
 
     <TextView
-        android:id="@+id/textView6"
+        android:id="@+id/tvLansia"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Lansia"
@@ -159,7 +160,7 @@
         app:layout_constraintVertical_bias="0.04" />
 
     <TextView
-        android:id="@+id/textView7"
+        android:id="@+id/tvWali"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Wali"
@@ -172,5 +173,17 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.044" />
 
+    <ImageButton
+        android:id="@+id/ibLoginGoogle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.866"
+        app:srcCompat="@mipmap/log_google" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
