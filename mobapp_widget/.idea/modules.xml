@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mobapp_widget.iml" filepath="$PROJECT_DIR$/.idea/modules/mobapp_widget.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/mobapp_widget.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/mobapp_widget.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/mobapp_widget.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/mobapp_widget.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/mobapp_widget.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/mobapp_widget.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/mobapp_widget.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/mobapp_widget.app.unitTest.iml" />
+    </modules>
+  </component>
+</project>
