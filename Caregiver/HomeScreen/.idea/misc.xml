@@ -35,13 +35,15 @@
         <entry key="..\:/aaa/app/MobileApp2022/Caregiver/HomeScreen/app/src/main/res/drawable-v24/logo.xml" value="0.2275" />
         <entry key="..\:/aaa/app/MobileApp2022/Caregiver/HomeScreen/app/src/main/res/drawable/background_akun.xml" value="0.2275" />
         <entry key="..\:/aaa/app/MobileApp2022/Caregiver/HomeScreen/app/src/main/res/drawable/background_list.xml" value="0.2275" />
+        <entry key="..\:/aaa/app/MobileApp2022/Caregiver/HomeScreen/app/src/main/res/drawable/btn_bg.xml" value="0.2275" />
+        <entry key="..\:/aaa/app/MobileApp2022/Caregiver/HomeScreen/app/src/main/res/drawable/button_white.xml" value="0.2275" />
         <entry key="..\:/aaa/app/MobileApp2022/Caregiver/HomeScreen/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2275" />
         <entry key="..\:/aaa/app/MobileApp2022/Caregiver/HomeScreen/app/src/main/res/drawable/radio_bg.xml" value="0.2275" />
         <entry key="..\:/aaa/app/MobileApp2022/Caregiver/HomeScreen/app/src/main/res/layout/activity_home.xml" value="0.25" />
         <entry key="..\:/aaa/app/MobileApp2022/Caregiver/HomeScreen/app/src/main/res/layout/activity_lansia_map.xml" value="0.1852355072463768" />
         <entry key="..\:/aaa/app/MobileApp2022/Caregiver/HomeScreen/app/src/main/res/layout/activity_profil_caregiver.xml" value="0.25" />
         <entry key="..\:/aaa/app/MobileApp2022/Caregiver/HomeScreen/app/src/main/res/layout/activity_register_cargiver.xml" value="0.25" />
-        <entry key="..\:/aaa/app/MobileApp2022/Caregiver/HomeScreen/app/src/main/res/layout/activity_register_start.xml" value="0.176" />
+        <entry key="..\:/aaa/app/MobileApp2022/Caregiver/HomeScreen/app/src/main/res/layout/activity_register_start.xml" value="0.2" />
         <entry key="..\:/aaa/app/MobileApp2022/Caregiver/HomeScreen/app/src/main/res/layout/activity_scan_qr.xml" value="0.1852355072463768" />
       </map>
     </option>
