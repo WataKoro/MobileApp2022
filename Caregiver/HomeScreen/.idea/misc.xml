@@ -32,6 +32,7 @@
         <entry key="..\:/Mobile App/Github/TolongLansia/MobileApp2022/Caregiver/HomeScreen/app/src/main/res/layout/activity_rumah_sakit_map.xml" value="0.19157608695652173" />
         <entry key="..\:/Mobile App/Github/TolongLansia/MobileApp2022/Caregiver/HomeScreen/app/src/main/res/layout/activity_scan_qr.xml" value="0.19157608695652173" />
         <entry key="..\:/Mobile App/Github/TolongLansia/MobileApp2022/Caregiver/HomeScreen/app/src/main/res/layout/activity_setting.xml" value="0.19157608695652173" />
+        <entry key="..\:/aaa/app/MobileApp2022/Caregiver/HomeScreen/app/src/main/res/drawable-mdpi/ic_launcher_background.xml" value="0.102" />
         <entry key="..\:/aaa/app/MobileApp2022/Caregiver/HomeScreen/app/src/main/res/drawable-v24/logo.xml" value="0.2275" />
         <entry key="..\:/aaa/app/MobileApp2022/Caregiver/HomeScreen/app/src/main/res/drawable/background_akun.xml" value="0.2275" />
         <entry key="..\:/aaa/app/MobileApp2022/Caregiver/HomeScreen/app/src/main/res/drawable/background_list.xml" value="0.2275" />
@@ -43,8 +44,9 @@
         <entry key="..\:/aaa/app/MobileApp2022/Caregiver/HomeScreen/app/src/main/res/layout/activity_lansia_map.xml" value="0.1852355072463768" />
         <entry key="..\:/aaa/app/MobileApp2022/Caregiver/HomeScreen/app/src/main/res/layout/activity_profil_caregiver.xml" value="0.25" />
         <entry key="..\:/aaa/app/MobileApp2022/Caregiver/HomeScreen/app/src/main/res/layout/activity_register_cargiver.xml" value="0.25" />
-        <entry key="..\:/aaa/app/MobileApp2022/Caregiver/HomeScreen/app/src/main/res/layout/activity_register_start.xml" value="0.176" />
+        <entry key="..\:/aaa/app/MobileApp2022/Caregiver/HomeScreen/app/src/main/res/layout/activity_register_start.xml" value="0.4" />
         <entry key="..\:/aaa/app/MobileApp2022/Caregiver/HomeScreen/app/src/main/res/layout/activity_scan_qr.xml" value="0.1852355072463768" />
+        <entry key="..\:/aaa/app/MobileApp2022/Caregiver/HomeScreen/app/src/main/res/layout/activity_setting.xml" value="0.1" />
       </map>
     </option>
   </component>
