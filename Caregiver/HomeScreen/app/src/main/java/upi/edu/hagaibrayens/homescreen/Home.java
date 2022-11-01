@@ -1,8 +1,9 @@
 package upi.edu.hagaibrayens.homescreen;
 
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.app.Person;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
@@ -52,18 +53,52 @@ public class Home extends AppCompatActivity {
         startActivity(switchActivityIntent);
     }
 
+    public void profil(View v){
+        Intent switchActivityIntent = new Intent(this, ProfilCaregiver.class);
+        startActivity(switchActivityIntent);
+    }
+
+    public void profil(MenuItem item){
+        Intent switchActivityIntent = new Intent(this, ProfilCaregiver.class);
+        startActivity(switchActivityIntent);
+    }
+
     public void kontak(View v){
-        Intent switchActivityIntent = new Intent(this, Riwayat.class);
+        Intent switchActivityIntent = new Intent(this, ProfilCaregiver.class);
         startActivity(switchActivityIntent);
     }
 
     public void kontak(MenuItem item){
-        Intent switchActivityIntent = new Intent(this, Riwayat.class);
+        Intent switchActivityIntent = new Intent(this, ProfilCaregiver.class);
         startActivity(switchActivityIntent);
     }
 
     public void loc(View v){
         Intent switchActivityIntent = new Intent(this, LansiaMap.class);
         startActivity(switchActivityIntent);
+    }
+
+    public void locRumahsakit(View v){
+        Intent switchActivityIntent = new Intent(this, RumahSakitMap.class);
+        startActivity(switchActivityIntent);
+    }
+
+    public void bantuan(View v){
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setMessage("Pergi Menolong ?")
+                .setTitle("")
+                .setPositiveButton("Pergi", new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int id) {
+                        // mulai
+                    }
+                })
+                .setNegativeButton("Tidak", new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int id) {
+                        // batal
+                    }
+                });
+
+        AlertDialog dialog = builder.create();
+        dialog.show();
     }
 }
