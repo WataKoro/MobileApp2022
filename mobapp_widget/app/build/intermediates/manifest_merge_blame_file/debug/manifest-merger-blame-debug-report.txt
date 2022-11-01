@@ -1,0 +1,96 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.mobapp_widget"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->D:\aaa\app\MobileApp2022\mobapp_widget\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->D:\aaa\app\MobileApp2022\mobapp_widget\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->D:\aaa\app\MobileApp2022\mobapp_widget\app\src\main\AndroidManifest.xml:6:5-36:19
+12        android:allowBackup="true"
+12-->D:\aaa\app\MobileApp2022\mobapp_widget\app\src\main\AndroidManifest.xml:7:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.8.0] C:\Users\attar\.gradle\caches\transforms-3\0638d9dacb5fd10604e28ec2b4d3c80b\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+14        android:dataExtractionRules="@xml/data_extraction_rules"
+14-->D:\aaa\app\MobileApp2022\mobapp_widget\app\src\main\AndroidManifest.xml:8:9-65
+15        android:debuggable="true"
+16        android:fullBackupContent="@xml/backup_rules"
+16-->D:\aaa\app\MobileApp2022\mobapp_widget\app\src\main\AndroidManifest.xml:9:9-54
+17        android:icon="@mipmap/ic_launcher"
+17-->D:\aaa\app\MobileApp2022\mobapp_widget\app\src\main\AndroidManifest.xml:10:9-43
+18        android:label="@string/register"
+18-->D:\aaa\app\MobileApp2022\mobapp_widget\app\src\main\AndroidManifest.xml:11:9-41
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->D:\aaa\app\MobileApp2022\mobapp_widget\app\src\main\AndroidManifest.xml:12:9-54
+20        android:supportsRtl="true"
+20-->D:\aaa\app\MobileApp2022\mobapp_widget\app\src\main\AndroidManifest.xml:13:9-35
+21        android:testOnly="true"
+22        android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+22-->D:\aaa\app\MobileApp2022\mobapp_widget\app\src\main\AndroidManifest.xml:14:9-65
+23        <activity
+23-->D:\aaa\app\MobileApp2022\mobapp_widget\app\src\main\AndroidManifest.xml:16:9-18:39
+24            android:name="com.example.mobapp_widget.Login"
+24-->D:\aaa\app\MobileApp2022\mobapp_widget\app\src\main\AndroidManifest.xml:17:13-34
+25            android:exported="true" />
+25-->D:\aaa\app\MobileApp2022\mobapp_widget\app\src\main\AndroidManifest.xml:18:13-36
+26        <activity
+26-->D:\aaa\app\MobileApp2022\mobapp_widget\app\src\main\AndroidManifest.xml:19:9-31:20
+27            android:name="com.example.mobapp_widget.MainActivity"
+27-->D:\aaa\app\MobileApp2022\mobapp_widget\app\src\main\AndroidManifest.xml:20:13-41
+28            android:exported="true" >
+28-->D:\aaa\app\MobileApp2022\mobapp_widget\app\src\main\AndroidManifest.xml:21:13-36
+29            <intent-filter>
+29-->D:\aaa\app\MobileApp2022\mobapp_widget\app\src\main\AndroidManifest.xml:22:13-26:29
+30                <action android:name="android.intent.action.MAIN" />
+30-->D:\aaa\app\MobileApp2022\mobapp_widget\app\src\main\AndroidManifest.xml:23:17-69
+30-->D:\aaa\app\MobileApp2022\mobapp_widget\app\src\main\AndroidManifest.xml:23:25-66
+31
+32                <category android:name="android.intent.category.LAUNCHER" />
+32-->D:\aaa\app\MobileApp2022\mobapp_widget\app\src\main\AndroidManifest.xml:25:17-77
+32-->D:\aaa\app\MobileApp2022\mobapp_widget\app\src\main\AndroidManifest.xml:25:27-74
+33            </intent-filter>
+34
+35            <meta-data
+35-->D:\aaa\app\MobileApp2022\mobapp_widget\app\src\main\AndroidManifest.xml:28:13-30:36
+36                android:name="android.app,lib_name"
+36-->D:\aaa\app\MobileApp2022\mobapp_widget\app\src\main\AndroidManifest.xml:29:17-52
+37                android:value="" />
+37-->D:\aaa\app\MobileApp2022\mobapp_widget\app\src\main\AndroidManifest.xml:30:17-33
+38        </activity>
+39
+40        <meta-data
+40-->D:\aaa\app\MobileApp2022\mobapp_widget\app\src\main\AndroidManifest.xml:33:9-35:57
+41            android:name="preloaded_fonts"
+41-->D:\aaa\app\MobileApp2022\mobapp_widget\app\src\main\AndroidManifest.xml:34:13-43
+42            android:resource="@array/preloaded_fonts" />
+42-->D:\aaa\app\MobileApp2022\mobapp_widget\app\src\main\AndroidManifest.xml:35:13-54
+43
+44        <provider
+44-->[androidx.emoji2:emoji2:1.2.0] C:\Users\attar\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+45            android:name="androidx.startup.InitializationProvider"
+45-->[androidx.emoji2:emoji2:1.2.0] C:\Users\attar\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+46            android:authorities="com.example.mobapp_widget.androidx-startup"
+46-->[androidx.emoji2:emoji2:1.2.0] C:\Users\attar\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+47            android:exported="false" >
+47-->[androidx.emoji2:emoji2:1.2.0] C:\Users\attar\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+48            <meta-data
+48-->[androidx.emoji2:emoji2:1.2.0] C:\Users\attar\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+49                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+49-->[androidx.emoji2:emoji2:1.2.0] C:\Users\attar\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+50                android:value="androidx.startup" />
+50-->[androidx.emoji2:emoji2:1.2.0] C:\Users\attar\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+51            <meta-data
+51-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\attar\.gradle\caches\transforms-3\a68586d9ac6fc4872d4884a947d1c1d5\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+52                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+52-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\attar\.gradle\caches\transforms-3\a68586d9ac6fc4872d4884a947d1c1d5\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+53                android:value="androidx.startup" />
+53-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\attar\.gradle\caches\transforms-3\a68586d9ac6fc4872d4884a947d1c1d5\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+54        </provider>
+55    </application>
+56
+57</manifest>
