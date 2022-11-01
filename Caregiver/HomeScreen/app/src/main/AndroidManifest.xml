@@ -33,6 +33,9 @@
             android:name=".register_lansia"
             android:exported="true" />
         <activity
+            android:name=".register_start"
+            android:exported="true" />
+        <activity
             android:name=".RumahSakitMap"
             android:exported="false" />
         <activity
