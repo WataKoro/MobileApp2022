@@ -17,7 +17,6 @@
 
         <ImageView
             android:id="@+id/back1"
-            android:onClick="home"
             android:layout_width="37dp"
             android:layout_height="37dp"
             android:layout_centerVertical="true"

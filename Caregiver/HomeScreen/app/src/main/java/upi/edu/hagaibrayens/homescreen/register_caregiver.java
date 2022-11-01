@@ -15,13 +15,9 @@ public class register_caregiver extends AppCompatActivity {
         setContentView(R.layout.activity_register_cargiver);
     }
 
-    public void home(View v){
-        Intent switchActivityIntent = new Intent(this, Home.class);
+    public void login(View v){
+        Intent switchActivityIntent = new Intent(this, LoginCaregiver.class);
         startActivity(switchActivityIntent);
     }
 
-    public void home(MenuItem item){
-        Intent switchActivityIntent = new Intent(this, Home.class);
-        startActivity(switchActivityIntent);
-    }
 }
