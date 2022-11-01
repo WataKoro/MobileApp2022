@@ -31,6 +31,16 @@ public class MainActivity extends AppCompatActivity {
         startActivity(switchActivityIntent);
     }
 
+    public void logout(View v){
+        Intent switchActivityIntent = new Intent(this, MainActivity.class);
+        startActivity(switchActivityIntent);
+    }
+
+    public void logout(MenuItem item){
+        Intent switchActivityIntent = new Intent(this, MainActivity.class);
+        startActivity(switchActivityIntent);
+    }
+
     public void kontakActivity(View v){
         Intent switchActivityIntent = new Intent(this, MainActivity4.class);
         startActivity(switchActivityIntent);

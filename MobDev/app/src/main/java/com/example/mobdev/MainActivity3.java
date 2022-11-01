@@ -7,6 +7,7 @@ import com.google.android.material.snackbar.Snackbar;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.view.MenuItem;
 import android.view.View;
 
 import androidx.navigation.NavController;
@@ -26,6 +27,26 @@ public class MainActivity3 extends AppCompatActivity {
 
     public void logout(View v){
         Intent switchActivityIntent = new Intent(this, MainActivity.class);
+        startActivity(switchActivityIntent);
+    }
+
+    public void logout(MenuItem item){
+        Intent switchActivityIntent = new Intent(this, MainActivity.class);
+        startActivity(switchActivityIntent);
+    }
+
+    public void kontakActivity(View v){
+        Intent switchActivityIntent = new Intent(this, MainActivity4.class);
+        startActivity(switchActivityIntent);
+    }
+
+    public void nextActivity(View v){
+        Intent switchActivityIntent = new Intent(this, MainActivity2.class);
+        startActivity(switchActivityIntent);
+    }
+
+    public void nextActivity(MenuItem item) {
+        Intent switchActivityIntent = new Intent(this, MainActivity2.class);
         startActivity(switchActivityIntent);
     }
 }
