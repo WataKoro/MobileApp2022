@@ -2,19 +2,23 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
+        android:id="@+id/menuHome"
         android:icon="@drawable/home"
         android:onClick="home"
         android:title="Home" />
     <item
+        android:id="@+id/menuList"
         android:icon="@drawable/list"
         android:onClick="list"
         android:title="List" />
     <item />
     <item
+        android:id="@+id/menuPerson"
         android:icon="@drawable/person"
         android:onClick="kontak"
         android:title="Person" />
     <item
+        android:id="@+id/menuSetting"
         android:icon="@drawable/setting"
         android:onClick="set"
         android:title="Setting" />

@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    package="upi.edu.hagaibrayens.homescreen">
+    xmlns:tools="http://schemas.android.com/tools">
 
     <application
         android:allowBackup="true"
@@ -37,7 +36,7 @@
             android:exported="true" />
         <activity
             android:name=".register_lansia"
-            android:exported="true" />
+            android:exported="false" />
         <activity
             android:name=".RumahSakitMap"
             android:exported="false" />
