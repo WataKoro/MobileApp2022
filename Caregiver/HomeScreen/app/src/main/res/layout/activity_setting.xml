@@ -50,7 +50,7 @@
             android:layout_width="37dp"
             android:layout_height="37dp"
             android:layout_centerVertical="true"
-            android:onClick="home"
+
             app:srcCompat="?attr/homeAsUpIndicator" />
 
         <TextView
