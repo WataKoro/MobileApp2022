@@ -10,7 +10,7 @@
     tools:context=".LoginCaregiver">
 
     <EditText
-        android:id="@+id/etEmailAddress"
+        android:id="@+id/EmailAddress"
         android:layout_width="301dp"
         android:layout_height="wrap_content"
         android:background="@drawable/text_bg"
@@ -26,7 +26,7 @@
 
 
     <EditText
-        android:id="@+id/editTextTextPassword"
+        android:id="@+id/Password"
         android:layout_width="301dp"
         android:layout_height="wrap_content"
         android:background="@drawable/text_bg"
@@ -75,7 +75,6 @@
         android:layout_width="97dp"
         android:layout_height="55dp"
         android:backgroundTint="#FAF6F6"
-        android:onClick="home"
         android:text="LOGIN"
         android:textColor="#FF5722"
         app:layout_constraintBottom_toBottomOf="parent"
