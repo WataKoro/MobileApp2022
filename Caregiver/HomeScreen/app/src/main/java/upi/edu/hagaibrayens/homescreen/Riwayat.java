@@ -45,4 +45,9 @@ public class Riwayat extends AppCompatActivity {
         startActivity(switchActivityIntent);
     }
 
+    public void locRumahsakit(View v){
+        Intent switchActivityIntent = new Intent(this, RumahSakitMap.class);
+        startActivity(switchActivityIntent);
+    }
+
 }

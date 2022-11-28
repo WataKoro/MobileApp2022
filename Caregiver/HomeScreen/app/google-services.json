@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "739058107521",
+    "project_id": "tolonglansia-c1905",
+    "storage_bucket": "tolonglansia-c1905.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:739058107521:android:2fbab640f1cab1262d3980",
+        "android_client_info": {
+          "package_name": "upi.edu.hagaibrayens.homescreen"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "739058107521-jcre5386kulmvuvkccp00qchnuos7pno.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "upi.edu.hagaibrayens.homescreen",
+            "certificate_hash": "68e3f645ded841f0e4dedaae54f99cf65f96ee53"
+          }
+        },
+        {
+          "client_id": "739058107521-3fq5b2jq45s73q2k68vcec8nbfdn7lnt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA18qC9r4l3x1u0Mj6wTtEIicRXMMH2QwY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "739058107521-3fq5b2jq45s73q2k68vcec8nbfdn7lnt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
