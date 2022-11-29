@@ -2,4 +2,19 @@
 <resources>
     <item name="panjang" type="id" />
     <item name="tvHelloNama" type="id" />
+    <item name="EmailAddress" type="id" />
+    <item name="Password" type="id" />
+    <item name="btLogin" type="id" />
+    <item name="checkBox" type="id" />
+    <item name="textcontoh" type="id" />
+    <item name="ibLoginGoogle" type="id" />
+    <item name="sapa" type="id" />
+    <item name="Nama" type="id" />
+    <item name="Mail" type="id" />
+    <item name="Pass" type="id" />
+    <item name="Telp" type="id" />
+    <item name="Alamat" type="id" />
+    <item name="Tgl" type="id" />
+    <item name="submit" type="id" />
+    <item name="textInputEditText" type="id" />
 </resources>

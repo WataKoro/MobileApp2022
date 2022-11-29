@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "287291165410",
+    "project_id": "tolonglansia",
+    "storage_bucket": "tolonglansia.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:287291165410:android:30bad6a663c5c1e92dacbb",
+        "android_client_info": {
+          "package_name": "com.example.mobdev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "287291165410-ac6u1jktsrmgl7msbjtpd9pc6mqub60b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mobdev",
+            "certificate_hash": "e91209f438fe0a9c2cfc387cc2c7504fb052be1e"
+          }
+        },
+        {
+          "client_id": "287291165410-mpnodhfkgtnskmi3do1ul6usprpuans3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4u4mthbLF_IFfaxXsO9Cubv9Yx_GwVGk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "287291165410-mpnodhfkgtnskmi3do1ul6usprpuans3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

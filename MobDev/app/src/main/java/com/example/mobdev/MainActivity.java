@@ -13,12 +13,27 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
+
 public class MainActivity extends AppCompatActivity {
+
+    private FirebaseUser firebaseUser;
+    private TextView AccountName;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        AccountName = findViewById(R.id.AccountName);
+
+        firebaseUser = FirebaseAuth.getInstance().getCurrentUser();
+
+        if (firebaseUser!=null){
+            AccountName.setText(firebaseUser.getDisplayName());
+        }else{
+            AccountName.setText("Login Gagal!");
+        }
     }
 
     public void nextActivity(View v){
