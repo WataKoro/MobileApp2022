@@ -102,4 +102,17 @@
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="data_diri" />
+    <string name="nama" />
+    <string name="e_mail" />
+    <string name="password" />
+    <string name="no_telp" />
+    <string name="alamat" />
+    <string name="tanggal_lahir" />
+    <string name="submit" />
+    <string name="todo" />
+    <string name="gender" />
+    <string name="laki_laki" />
+    <string name="perempuan" />
+    <string name="riwayat_penyakit" />
 </resources>

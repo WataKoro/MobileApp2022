@@ -20,6 +20,7 @@
             android:layout_height="37dp"
             android:onClick="home"
             android:layout_centerVertical="true"
+            android:onClick="home"
             app:srcCompat="?attr/homeAsUpIndicator" />
 
         <ImageView

@@ -15,5 +15,7 @@
     <string name="riwayat_penyakit">Riwayat Penyakit</string>
     <string name="laki_laki">Laki-laki</string>
     <string name="Tolong_Lansia">TolongLansia</string>
+    <string name="title_activity_elder_maps">ElderMapsActivity</string>
+    <string name="title_activity_maps">MapsActivity</string>
 
 </resources>

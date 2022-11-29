@@ -22,6 +22,18 @@
             android:layout_marginTop="0dp"
             android:padding="0dp">
 
+            <TextView
+                android:id="@+id/AccountName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Textview"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.315"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.108" />
+
             <ImageView
                 android:id="@+id/imageView2"
                 android:layout_width="76dp"
@@ -53,17 +65,6 @@
                 app:layout_constraintVertical_bias="0.044"
                 app:srcCompat="@drawable/qr" />
 
-            <TextView
-                android:id="@+id/textView2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Halo, Nama Akun"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.368"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.081" />
         </androidx.constraintlayout.widget.ConstraintLayout>
     </RelativeLayout>
 
