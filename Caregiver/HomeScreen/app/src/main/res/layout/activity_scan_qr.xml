@@ -7,7 +7,7 @@
     tools:context=".ScanQR">
 
     <RelativeLayout
-        android:id="@+id/relativeLayout"
+        android:id="@+id/RelativeLayout"
         android:layout_width="match_parent"
         android:layout_height="100dp"
         android:padding="10dp"
@@ -44,7 +44,7 @@
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/relativeLayout">
+        app:layout_constraintTop_toBottomOf="@+id/RelativeLayout">
 
 
         <TextView

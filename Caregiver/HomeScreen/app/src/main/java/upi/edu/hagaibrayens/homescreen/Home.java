@@ -8,13 +8,32 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.EditText;
+import android.widget.TextView;
+
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 
 public class Home extends AppCompatActivity {
+
+    private FirebaseUser firebaseUser;
+    private TextView textView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
+        textView = findViewById(R.id.nama_akun);
+//        String emailfromIntent = getIntent().getStringExtra("Email");
+//        textView.setText(emailfromIntent);
+        firebaseUser = FirebaseAuth.getInstance().getCurrentUser();
+
+        if(firebaseUser!=null){
+            textView.setText(firebaseUser.getDisplayName());
+        }
+        else {
+            textView.setText("Login gagal");
+        }
     }
 
     public void scan(View v){
@@ -91,4 +110,5 @@ public class Home extends AppCompatActivity {
         AlertDialog dialog = builder.create();
         dialog.show();
     }
+
 }
