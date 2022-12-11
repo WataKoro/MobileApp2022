@@ -3,6 +3,9 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
 
     <uses-feature
         android:name="android.hardware.camera"
@@ -18,6 +21,14 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar"
         tools:targetApi="31">
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyD7Gn-OzwtGXxqm-LxfqUvMAFss94SsYNA" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
 
         <activity
             android:name=".LoginCaregiver"
@@ -41,9 +52,6 @@
         <activity
             android:name=".register_caregiver"
             android:exported="true" />
-        <activity
-            android:name=".register_lansia"
-            android:exported="false" />
         <activity
             android:name=".RumahSakitMap"
             android:exported="false" />
