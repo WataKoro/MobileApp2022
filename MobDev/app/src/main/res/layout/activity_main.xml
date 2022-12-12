@@ -26,13 +26,16 @@
                 android:id="@+id/AccountName"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_medium"
                 android:text="Textview"
+                android:textColor="@color/white"
+                android:textSize="20sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.315"
+                app:layout_constraintHorizontal_bias="0.325"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.108" />
+                app:layout_constraintVertical_bias="0.152" />
 
             <ImageView
                 android:id="@+id/imageView2"
@@ -48,7 +51,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintVertical_bias="0.045"
-                app:srcCompat="@drawable/profile" />
+                app:srcCompat="@drawable/acc_profile" />
 
             <ImageView
                 android:id="@+id/imageView3"
@@ -59,11 +62,11 @@
                 android:scaleY="1"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.907"
+                app:layout_constraintHorizontal_bias="0.952"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.044"
-                app:srcCompat="@drawable/qr" />
+                app:layout_constraintVertical_bias="0.091"
+                app:srcCompat="@drawable/group_qr" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
     </RelativeLayout>
@@ -109,7 +112,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.351"
-        app:srcCompat="@drawable/call" />
+        app:srcCompat="@drawable/phone_button" />
 
     <LinearLayout
         android:id="@+id/linearLayout"
@@ -134,25 +137,27 @@
                 android:id="@+id/textView17"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_medium"
                 android:text="Sedang dalam perjalanan"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.544"
+                app:layout_constraintHorizontal_bias="0.6"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.675" />
+                app:layout_constraintVertical_bias="0.637" />
 
             <ImageView
                 android:id="@+id/imageView7"
                 android:layout_width="76dp"
                 android:layout_height="76dp"
-                android:layout_marginStart="20dp"
+                android:layout_marginStart="8dp"
                 android:layout_marginTop="9dp"
                 android:layout_marginEnd="9dp"
                 android:layout_marginBottom="10dp"
                 android:src="@drawable/f494ea11f9cc70636700ddb2926dc60acd8ba447_full"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toStartOf="@+id/textView17"
+                app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
@@ -160,6 +165,7 @@
                 android:id="@+id/textView16"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_semibold"
                 android:text="Nama kontak,"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"

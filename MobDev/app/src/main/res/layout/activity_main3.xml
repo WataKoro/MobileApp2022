@@ -11,55 +11,59 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_medium"
         android:text="QR Code"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#353535"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.023" />
+        app:layout_constraintVertical_bias="0.062" />
 
     <ImageButton
         android:id="@+id/imageButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="47dp"
+        android:layout_height="49dp"
         android:layout_marginTop="28dp"
         android:background="@null"
         android:onClick="logout"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.041"
+        app:layout_constraintHorizontal_bias="0.043"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.038"
-        app:srcCompat="?attr/actionModeCloseDrawable" />
+        app:layout_constraintVertical_bias="0.021"
+        app:srcCompat="@drawable/arrow_back" />
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="210dp"
-        android:layout_height="182dp"
+        android:layout_width="316dp"
+        android:layout_height="324dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.471"
-        app:srcCompat="@drawable/qr" />
+        app:layout_constraintVertical_bias="0.565"
+        app:srcCompat="@drawable/group_qr" />
 
     <TextView
         android:id="@+id/textView15"
-        android:layout_width="124dp"
-        android:layout_height="26dp"
-        android:scaleX="3"
-        android:scaleY="3"
+        android:layout_width="147dp"
+        android:layout_height="31dp"
+        android:fontFamily="@font/poppins_medium"
+        android:scaleX="2"
+        android:scaleY="2"
         android:text="Scan this QR Code!"
+        android:textColor="#272727"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.543"
+        app:layout_constraintHorizontal_bias="0.549"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.293" />
+        app:layout_constraintVertical_bias="0.242" />
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/navbar"

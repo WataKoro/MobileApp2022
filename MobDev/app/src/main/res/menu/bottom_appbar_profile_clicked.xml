@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/home"
+        android:onClick="logout"
+        android:title="Home"
+        android:visible="true" />
+    <item android:id="@+id/placeholder" />
+    <item
+        android:id="@+id/profile"
+        android:icon="@drawable/profile"
+        android:onClick="nextActivity"
+        android:title="Profile"
+        android:visible="true" />
+</menu>
