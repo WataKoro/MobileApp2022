@@ -131,7 +131,7 @@
             android:padding="10dp">
 
             <TextView
-                android:id="@+id/textView17"
+                android:id="@+id/Status"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Sedang dalam perjalanan"
@@ -152,12 +152,11 @@
                 android:layout_marginBottom="10dp"
                 android:src="@drawable/f494ea11f9cc70636700ddb2926dc60acd8ba447_full"
                 app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toStartOf="@+id/textView17"
+                app:layout_constraintEnd_toStartOf="@+id/Status"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
-                android:id="@+id/textView16"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Nama kontak,"
@@ -170,6 +169,18 @@
 
         </androidx.constraintlayout.widget.ConstraintLayout>
     </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvHasil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="status"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.793" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
