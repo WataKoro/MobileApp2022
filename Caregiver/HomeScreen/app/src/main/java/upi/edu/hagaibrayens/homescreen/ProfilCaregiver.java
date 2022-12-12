@@ -8,14 +8,18 @@ import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.material.navigation.NavigationBarView;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 
 public class ProfilCaregiver extends AppCompatActivity {
 
     private Button btnlogout;
+    private FirebaseUser firebaseUser;
+    private TextView textView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,6 +32,18 @@ public class ProfilCaregiver extends AppCompatActivity {
             startActivity(new Intent(getApplicationContext(), LoginCaregiver.class));
             finish();
         });
+
+        textView = findViewById(R.id.etnama);
+//        String emailfromIntent = getIntent().getStringExtra("Email");
+//        textView.setText(emailfromIntent);
+        firebaseUser = FirebaseAuth.getInstance().getCurrentUser();
+
+        if(firebaseUser!=null){
+            textView.setText(firebaseUser.getDisplayName());
+        }
+        else {
+            textView.setText("Login gagal");
+        }
 
     }
 
