@@ -33,6 +33,7 @@
             android:layout_marginLeft="10dp"
             android:layout_marginTop="25dp"
             android:layout_toRightOf="@id/avatar1"
+            android:fontFamily="@font/poppins_medium"
             android:text="Hallo, Uma Musume"
             android:textSize="20dp"
             android:textStyle="bold" />
@@ -70,7 +71,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintVertical_bias="0.0"
-                app:srcCompat="@drawable/person" />
+                app:srcCompat="@drawable/avatar" />
 
             <TextView
                 android:id="@+id/textView1"
@@ -79,6 +80,7 @@
                 android:layout_marginLeft="20dp"
                 android:layout_marginTop="8dp"
                 android:layout_marginEnd="164dp"
+                android:fontFamily="@font/poppins_medium"
                 android:text="Irene,"
                 app:layout_constraintEnd_toStartOf="@+id/imageViewMaps"
                 app:layout_constraintLeft_toRightOf="@id/imageView1"
@@ -88,8 +90,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
-                android:layout_marginTop="12dp"
-                android:layout_marginEnd="116dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="124dp"
+                android:fontFamily="@font/poppins_medium"
                 android:text="+6281232121"
                 app:layout_constraintEnd_toStartOf="@+id/imageViewMaps"
                 app:layout_constraintLeft_toRightOf="@id/imageView1"
@@ -127,7 +130,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintVertical_bias="0.0"
-                app:srcCompat="@drawable/person" />
+                app:srcCompat="@drawable/avatar" />
 
             <TextView
                 android:id="@+id/textView2"
@@ -135,6 +138,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
                 android:layout_marginEnd="152dp"
+                android:fontFamily="@font/poppins_medium"
                 android:text="Souma,"
                 app:layout_constraintEnd_toStartOf="@+id/imageViewMaps2"
                 app:layout_constraintLeft_toRightOf="@id/imageView2"
@@ -144,8 +148,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
-                android:layout_marginTop="12dp"
-                android:layout_marginEnd="124dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="128dp"
+                android:fontFamily="@font/poppins_medium"
                 android:text="+628122221"
                 app:layout_constraintEnd_toStartOf="@+id/imageViewMaps2"
                 app:layout_constraintLeft_toRightOf="@id/imageView2"
@@ -193,7 +198,7 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0"
+        app:layout_constraintVertical_bias="0.998"
         app:menu="@menu/bottom_appbar"/>
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
@@ -242,14 +247,15 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintVertical_bias="0.56"
-                app:srcCompat="@drawable/person" />
+                app:srcCompat="@drawable/avatar" />
 
             <TextView
                 android:layout_width="176dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
                 android:layout_marginTop="12dp"
-                android:layout_marginEnd="12dp"
+                android:layout_marginEnd="16dp"
+                android:fontFamily="@font/poppins_medium"
                 android:text="Gawat, Nama Elder sedang dalam bahaya"
                 android:textSize="20dp"
                 android:textStyle="bold"
@@ -257,7 +263,7 @@
                 app:layout_constraintEnd_toStartOf="@+id/imageViewMaps3"
                 app:layout_constraintLeft_toRightOf="@id/imageView3"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.341" />
+                app:layout_constraintVertical_bias="0.609" />
 
             <ImageView
                 android:id="@+id/imageViewMaps3"
