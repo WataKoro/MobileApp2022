@@ -75,10 +75,10 @@ public class Register extends AppCompatActivity {
             }
         });
     }
-    public void login(View v){
-        Intent switchActivityIntent = new Intent(this, Login.class);
-        startActivity(switchActivityIntent);
-    }
+//    public void login(View v){
+//        Intent switchActivityIntent = new Intent(this, Login.class);
+//        startActivity(switchActivityIntent);
+//    }
     public void register(String Nama, String Mail, String Pass, String Alamat, String Telp, String Tgl){
         progressDialog.show();
         mAuth.createUserWithEmailAndPassword(Mail, Pass).addOnCompleteListener(new OnCompleteListener<AuthResult>() {

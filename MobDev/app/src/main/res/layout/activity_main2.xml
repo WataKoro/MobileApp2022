@@ -109,7 +109,7 @@
         app:layout_constraintVertical_bias="0.551" />
 
     <TextView
-        android:id="@+id/textView9"
+        android:id="@+id/tanggal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="TextView"
@@ -121,7 +121,7 @@
         app:layout_constraintVertical_bias="0.595" />
 
     <TextView
-        android:id="@+id/textView11"
+        android:id="@+id/alamat"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="TextView"

@@ -1,5 +1,6 @@
 package upi.edu.hagaibrayens.homescreen;
 
+import android.app.DatePickerDialog;
 import android.app.ProgressDialog;
 import android.content.Intent;
 import android.os.Bundle;
@@ -7,6 +8,7 @@ import android.text.TextUtils;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.Toast;
 
@@ -26,6 +28,8 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.firestore.DocumentReference;
 import com.google.firebase.firestore.FirebaseFirestore;
 
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -38,6 +42,13 @@ public class register_caregiver extends AppCompatActivity {
     private ProgressDialog progressDialog;
     FirebaseFirestore db;
 
+    DatePickerDialog datePickerDialog;
+    SimpleDateFormat dateFormat;
+
+    final Calendar calendar = Calendar.getInstance();
+    final int year = calendar.get(Calendar.YEAR);
+    final int month = calendar.get(Calendar.MONTH);
+    final int day = calendar.get(Calendar.DAY_OF_MONTH);
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -53,6 +64,8 @@ public class register_caregiver extends AppCompatActivity {
         Telp =findViewById(R.id.Telp);
         Tgl=findViewById(R.id.Tgl);
 
+        dateFormat = new SimpleDateFormat("dd-MM-yyyy");
+
         submit=findViewById(R.id.submit);
 
 
@@ -61,6 +74,25 @@ public class register_caregiver extends AppCompatActivity {
         progressDialog.setTitle("loading");
         progressDialog.setMessage("progres sedang berjalan");
         progressDialog.setCancelable(false);
+
+        Tgl.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                DatePickerDialog dialog = new DatePickerDialog(register_caregiver.this, new DatePickerDialog.OnDateSetListener() {
+                    @Override
+                    public void onDateSet(DatePicker view, int year , int month, int dayOfMonth) {
+
+                        month = month+1;
+                        String date = day+"/"+month+"/"+year;
+                        Tgl.setText(date);
+
+
+                    }
+                }, year, month, day);
+                dialog.show();
+            }
+        });
+
 
 
 
@@ -74,25 +106,6 @@ public class register_caregiver extends AppCompatActivity {
 //                String alamat= Alamat.getText().toString();
 //                String tanggal= Tgl.getText().toString();
 //
-//                if(TextUtils.isEmpty(user)||TextUtils.isEmpty(username)||TextUtils.isEmpty(password)
-//                        ||TextUtils.isEmpty(hp)||TextUtils.isEmpty(alamat)||TextUtils.isEmpty(tanggal))
-//                    Toast.makeText(register_caregiver.this, "Cek Kembali",Toast.LENGTH_SHORT).show();
-//                else{
-//                    Boolean checkuser= sqLiteDatabase.checkmail(user);
-//                    if(checkuser==true){
-//                        Boolean insert = sqLiteDatabase.insertData(user,password,username,hp,alamat,tanggal);
-//                        if (insert==true) {
-//                            Toast.makeText(register_caregiver.this, "register Berhasil", Toast.LENGTH_SHORT).show();
-//                            Intent intent = new Intent(getApplicationContext(), LoginCaregiver.class);
-//                            startActivity(intent);
-//                        }else {
-//                            Toast.makeText(register_caregiver.this, "register gagal", Toast.LENGTH_SHORT).show();
-//                        }
-//                    }else {
-//                        Toast.makeText(register_caregiver.this, "akun sudah ada", Toast.LENGTH_SHORT).show();
-//                    }
-//                }
-//            }
 
             if(username.length()>0&&password.length()>0){
                 register();
@@ -115,7 +128,6 @@ public class register_caregiver extends AppCompatActivity {
         String hp= Telp.getText().toString();
         String alamat= Alamat.getText().toString();
         String tanggal= Tgl.getText().toString();
-
 
         progressDialog.show();
         mAuth.createUserWithEmailAndPassword(username, password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
