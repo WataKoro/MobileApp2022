@@ -8,6 +8,7 @@
         android:icon="@drawable/home"
         android:onClick="logout"
         android:title="Home"
+        
         android:visible="true" />
     <item android:id="@+id/placeholder" />
     <item
