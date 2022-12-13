@@ -1,5 +1,6 @@
 package upi.edu.hagaibrayens.homescreen;
 
+import androidx.activity.result.ActivityResultLauncher;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -9,20 +10,25 @@ import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
+import com.journeyapps.barcodescanner.ScanContract;
+import com.journeyapps.barcodescanner.ScanOptions;
 
 public class Home extends AppCompatActivity {
 
     private FirebaseUser firebaseUser;
     private TextView textView;
+    ImageView idscan;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
+
         textView = findViewById(R.id.nama_akun);
 //        String emailfromIntent = getIntent().getStringExtra("Email");
 //        textView.setText(emailfromIntent);
@@ -34,7 +40,36 @@ public class Home extends AppCompatActivity {
         else {
             textView.setText("Login gagal");
         }
+
+        idscan = findViewById(R.id.idscan);
+        idscan.setOnClickListener(v->{
+            scanCode();
+        });
     }
+
+    private void scanCode() {
+        ScanOptions options = new ScanOptions();
+        options.setPrompt("Volumn Up to Flash On");
+        options.setBeepEnabled(true);
+        options.setOrientationLocked(true);
+        options.setCaptureActivity(CaptureAct.class);
+        barLauncher.launch(options);
+    }
+
+    ActivityResultLauncher<ScanOptions> barLauncher = registerForActivityResult(new ScanContract(), result -> {
+
+        if(result.getContents() != null){
+            AlertDialog.Builder builder = new AlertDialog.Builder(Home.this);
+            builder.setTitle("Result");
+            builder.setMessage(result.getContents());
+            builder.setPositiveButton("OK", new DialogInterface.OnClickListener() {
+                @Override
+                public void onClick(DialogInterface dialogInterface, int i) {
+                    dialogInterface.dismiss();
+                }
+            }).show();
+        }
+    });
 
     public void scan(View v){
         Intent switchActivityIntent = new Intent(this, ScanQR.class);
